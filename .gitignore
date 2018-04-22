@@ -1,0 +1,13 @@
+# gitignore
+
+.next/
+node_modules/
+/npm-debug.log
+.env
+.DS_Store
+/.env.production
+
+# Only apps should have lockfiles
+yarn.lock
+package-lock.json
+
