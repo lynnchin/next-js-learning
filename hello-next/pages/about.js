@@ -1,1 +1,6 @@
-export default () => (<div><p>About me</p></div>)
+import Layout from '../components/MyLayout';
+
+export default () => (
+    <Layout>
+    <p>About me</p>
+    </Layout>)
